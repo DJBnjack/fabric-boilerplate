@@ -1,4 +1,4 @@
-# Fabric boilerplate
+# Fabric boilerplate  
 This is a boilerplate application to get you up and running quickly with your own blockchain application. With this boilerplate you get an application that you can run locally as well as on IBM Bluemix. There is a simple Angular frontend application, a NodeJS backend application and of course a blockchain network, all running in containers. Locally, the boilerplate starts up a blockchain network using Docker containers; on Bluemix you can use the Blockchain service.
 
 The boilerplate uses Hyperledger Fabric v0.6.1-preview and HFC 0.6.5.
@@ -6,16 +6,15 @@ The boilerplate uses Hyperledger Fabric v0.6.1-preview and HFC 0.6.5.
 It has been created and is maintained by the IBM CIC Benelux Blockchain team. Pull requests are more than welcome!
 
 ## Prerequisites
-- Docker and docker-compose (https://www.docker.com/)
+- Docker and docker-compose (https://www.docker.com/)  
+- Linux or Mac  
 
 To have good support in your IDE it's advisable to also install NPM, TypeScript, TSLint and Golang.
 
 ## Getting started
-1. Fork this repo  
-2. `git clone` your fork  
-3. `cd` into the main directory  
-4. `git checkout v2-typescript`  
-5. `npm install` (or, if you don't have npm, `./install.sh`).  
+1. Fork this repo
+2. `git clone` your fork
+3. `cd` into the main directory and run `npm install` (or, if you don't have npm, `./install.sh`).
 
 This will pull the baseimage, peer and memberservice, download the Go dependencies of the chaincode and build your containers. It will take a while.  
 
